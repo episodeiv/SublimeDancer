@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[get '${1:/request/url}' => sub {
+	${2:my \$params = params;}
+};
+]]></content>
+    <scope>source.perl</scope>
+    <tabTrigger>get</tabTrigger>
+    <description>GET route</description>
+</snippet>
+
